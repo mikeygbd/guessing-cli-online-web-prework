@@ -7,11 +7,11 @@ def run_guessing_game
   input = gets.chomp
 while input != 'exit'
 
-elsif input == number
+if input.to_i == number
   puts "You guessed the correct number!"
 elsif input != number
   puts "The computer guessed #{number}"
-else puts "Goodbye!"
+else
 end
-
+puts "Goodbye!"
 end
