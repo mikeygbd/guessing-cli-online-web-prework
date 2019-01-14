@@ -7,5 +7,6 @@ if gets == 'exit'
 end
 if gets == 2
   puts "You guessed the correct number!"
+end
 
 end
