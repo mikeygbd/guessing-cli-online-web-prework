@@ -5,7 +5,7 @@ def run_guessing_game
   number = rand(1...6)
 if gets.chomp == 'exit'
   puts "Goodbye!"
-elsif gets.chomp == number
+elsif gets == number
   puts "You guessed the correct number!"
 end
 
