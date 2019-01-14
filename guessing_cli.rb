@@ -5,8 +5,8 @@ def run_guessing_game
 
   number = rand(1...6)
   input = gets.chomp
-if input != 'exit'
-  
+while input != 'exit'
+
 elsif input == number
   puts "You guessed the correct number!"
 elsif input != number
